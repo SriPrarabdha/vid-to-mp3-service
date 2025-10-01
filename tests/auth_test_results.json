@@ -1,0 +1,197 @@
+{
+  "single_user": {
+    "success": true,
+    "status_code": 200,
+    "response_time": 7372.15,
+    "response_data": {
+      "id": "44e48d15-13dd-4c6d-8348-d6dc5357890c",
+      "username": "testuser_9a417ac6",
+      "email": "testuser_9a417ac6@test.com",
+      "active": true,
+      "role": "user",
+      "cerated_at": "2025-09-28T17:05:10.031903+00:00"
+    },
+    "test_user": {
+      "user_name": "testuser_9a417ac6",
+      "email": "testuser_9a417ac6@test.com"
+    }
+  },
+  "concurrent": {
+    "total_users": 10,
+    "successful_registrations": 10,
+    "failed_registrations": 0,
+    "errors": 0,
+    "success_rate": 100.0,
+    "total_test_time": 5210.58,
+    "avg_response_time": 4749.74,
+    "min_response_time": 3974.29,
+    "max_response_time": 5210.23,
+    "requests_per_second": 1.92,
+    "detailed_results": {
+      "successful": [
+        {
+          "user_index": 0,
+          "success": true,
+          "status_code": 200,
+          "response_time": 5210.23,
+          "response_data": {
+            "id": "29ded119-4009-490b-a93c-8534aa5579c0",
+            "username": "concurrent_user_0_a5e02c",
+            "email": "concurrent_user_0_a5e02c@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.969199+00:00"
+          },
+          "user_name": "concurrent_user_0_a5e02c",
+          "email": "concurrent_user_0_a5e02c@test.com"
+        },
+        {
+          "user_index": 1,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4904.98,
+          "response_data": {
+            "id": "f4ab5f9a-6779-4dda-8874-d7ec6a80840e",
+            "username": "concurrent_user_1_9cacef",
+            "email": "concurrent_user_1_9cacef@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.954385+00:00"
+          },
+          "user_name": "concurrent_user_1_9cacef",
+          "email": "concurrent_user_1_9cacef@test.com"
+        },
+        {
+          "user_index": 2,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4906.17,
+          "response_data": {
+            "id": "ec7fb2c3-8cfe-46c5-959b-5c48e186de91",
+            "username": "concurrent_user_2_3afcb3",
+            "email": "concurrent_user_2_3afcb3@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.961225+00:00"
+          },
+          "user_name": "concurrent_user_2_3afcb3",
+          "email": "concurrent_user_2_3afcb3@test.com"
+        },
+        {
+          "user_index": 3,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4905.66,
+          "response_data": {
+            "id": "d425650b-67c6-47fe-a3b5-a026a27cc832",
+            "username": "concurrent_user_3_e3e8d4",
+            "email": "concurrent_user_3_e3e8d4@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.960600+00:00"
+          },
+          "user_name": "concurrent_user_3_e3e8d4",
+          "email": "concurrent_user_3_e3e8d4@test.com"
+        },
+        {
+          "user_index": 4,
+          "success": true,
+          "status_code": 200,
+          "response_time": 3974.36,
+          "response_data": {
+            "id": "2378356e-8498-4d09-8d49-dacbdc96e4c8",
+            "username": "concurrent_user_4_ae22bb",
+            "email": "concurrent_user_4_ae22bb@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:14.210724+00:00"
+          },
+          "user_name": "concurrent_user_4_ae22bb",
+          "email": "concurrent_user_4_ae22bb@test.com"
+        },
+        {
+          "user_index": 5,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4905.34,
+          "response_data": {
+            "id": "67d7d4a2-8f00-4929-82ec-b74f7159ea13",
+            "username": "concurrent_user_5_bc328f",
+            "email": "concurrent_user_5_bc328f@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.958135+00:00"
+          },
+          "user_name": "concurrent_user_5_bc328f",
+          "email": "concurrent_user_5_bc328f@test.com"
+        },
+        {
+          "user_index": 6,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4905.65,
+          "response_data": {
+            "id": "43d70b84-2131-4d72-931b-a299418a4b39",
+            "username": "concurrent_user_6_be9ca3",
+            "email": "concurrent_user_6_be9ca3@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.955896+00:00"
+          },
+          "user_name": "concurrent_user_6_be9ca3",
+          "email": "concurrent_user_6_be9ca3@test.com"
+        },
+        {
+          "user_index": 7,
+          "success": true,
+          "status_code": 200,
+          "response_time": 3974.29,
+          "response_data": {
+            "id": "a06075b4-90f0-440e-bd70-17b8f47a0cd1",
+            "username": "concurrent_user_7_010cfd",
+            "email": "concurrent_user_7_010cfd@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:14.205657+00:00"
+          },
+          "user_name": "concurrent_user_7_010cfd",
+          "email": "concurrent_user_7_010cfd@test.com"
+        },
+        {
+          "user_index": 8,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4905.96,
+          "response_data": {
+            "id": "dd522c19-326a-4248-a871-6b14e2ebb4f7",
+            "username": "concurrent_user_8_3ffcc3",
+            "email": "concurrent_user_8_3ffcc3@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.963815+00:00"
+          },
+          "user_name": "concurrent_user_8_3ffcc3",
+          "email": "concurrent_user_8_3ffcc3@test.com"
+        },
+        {
+          "user_index": 9,
+          "success": true,
+          "status_code": 200,
+          "response_time": 4904.76,
+          "response_data": {
+            "id": "78bb84af-3671-4c1e-87ac-dec25a723833",
+            "username": "concurrent_user_9_529e17",
+            "email": "concurrent_user_9_529e17@test.com",
+            "active": true,
+            "role": "user",
+            "cerated_at": "2025-09-28T17:05:15.966732+00:00"
+          },
+          "user_name": "concurrent_user_9_529e17",
+          "email": "concurrent_user_9_529e17@test.com"
+        }
+      ],
+      "failed": [],
+      "errors": []
+    }
+  }
+}

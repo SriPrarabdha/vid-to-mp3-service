@@ -1,0 +1,7 @@
+fastapi
+passlib
+uvicorn
+dotenv
+psycopg
+SQLAlchemy
+PyJWT
