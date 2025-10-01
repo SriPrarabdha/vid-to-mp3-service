@@ -8,6 +8,8 @@ from typing import Optional
 from dataclasses import dataclass
 
 from ....db_util.db_conn import get_db
+
+from ....db_util.db_conn import get_db
 from ....db_util.models import User
 from ....auth_util.access_tokens import create_access_token, verify_access_token
 
